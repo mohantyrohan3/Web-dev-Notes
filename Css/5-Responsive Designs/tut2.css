@@ -1,0 +1,21 @@
+#div1{
+    color:black;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 60%;
+
+}
+
+@media screen and (max-width : 900px){
+#div1{
+    width: 90%;
+    }
+}
+
+
+@media screen and (max-width : 600px){
+#div1{
+    width: 100%;
+    }
+}

@@ -1,0 +1,87 @@
+*{
+    margin :0px;
+}
+
+body{
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+
+.header-part{
+    height: 62vh;
+    /* width: 100%; */
+    opacity: 0.82;
+    background-image: url(image/macbook_mouse.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.list{
+    list-style: none;
+    text-align: center;
+}
+
+.list li{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 2.2rem;
+    
+}
+.nav-list .list li a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    transition: color 0.5s , border-bottom 4s;
+}
+
+.nav-list .list li a:hover{
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.name{
+    margin-top: 6.5rem;
+    margin-left: 26px;
+}
+
+.name h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+#icon li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+#icon li a:hover{
+    box-shadow: 0px 0px 15px 10px rgba(230, 196, 196, 0.3);
+}
+
+
+
+
+.image{
+    height: 15rem;
+    width: 15rem;
+    background-image: url(image/macbook_mouse.jpg);
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    bottom: 7rem;
+    background-position: center;
+}
+
+.about-section{
+    font-size: 2rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    text-align: justify;
+    font-family: 'Nerko One', cursive;
+}

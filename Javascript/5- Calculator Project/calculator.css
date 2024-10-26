@@ -1,0 +1,98 @@
+h1{
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Mukta', sans-serif;
+    text-transform: uppercase;
+}
+
+#heading{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+i{
+   margin-right: 2rem;
+
+}
+#outer{
+    height: 80vh;
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 60vh;
+    width: 50vw;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.312);
+}
+
+#display{
+    height: 10vh;
+    width: 90%;
+    border: 1px solid white;
+    margin: 5%;
+    font-size:6vh ;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#display-text{
+    overflow-wrap:normal;
+}
+
+
+#buttons{
+    /* border: 1px solid rgba(211, 211, 211, 0.312); */
+    height: 40vh;
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+
+
+.button{
+    height: 7vh;
+    width: 11vw;
+    border: 1px solid rgba(211, 211, 211, 0.312);
+    padding: 0.6px;
+    background-color: white;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top:-6px ;
+}
+
+#red{
+    background-color: rgba(206, 11, 11, 0.667);
+    color: white;
+}
+
+
+@media screen and (max-width: 1040px){
+    .button{
+        height: 7vh;
+        width: 10vw;
+        border: 1px solid rgba(211, 211, 211, 0.312);
+        padding: 2px;
+    }
+}

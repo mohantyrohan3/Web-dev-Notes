@@ -1,0 +1,20 @@
+@keyframes changeShape{
+    from{
+        border-radius: 0%;
+    }
+    to{
+        border-radius: 50%;
+    }
+}
+
+
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    animation: changeShape 1s ease-in-out infinite alternate;
+}

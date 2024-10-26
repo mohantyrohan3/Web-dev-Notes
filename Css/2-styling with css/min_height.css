@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    min-width: 150px;
+    max-width: 250px;
+    /* overflow: hidden; */
+    overflow: scroll;
+
+
+}

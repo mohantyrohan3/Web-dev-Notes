@@ -1,0 +1,25 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    flex-grow: 1;
+    /* flex-shrink: ; */
+
+}

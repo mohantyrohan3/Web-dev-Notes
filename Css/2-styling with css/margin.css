@@ -1,0 +1,23 @@
+#div1{
+    height: 200px;
+    width: 100px;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 3px;
+
+}
+#div4{
+    height: 100px;
+    width: 100px;
+    background-color:chartreuse;
+    margin-left: 50px;
+
+}
+#div3{
+    height: 50px;
+    width: 50px;
+    background-color:darkkhaki;
+}

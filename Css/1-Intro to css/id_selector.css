@@ -1,0 +1,14 @@
+#one{
+    color: darkslategray;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#two{
+    color: darkseagreen;
+    font-family: cursive;
+}
+
+#list{
+    color: forestgreen;
+}

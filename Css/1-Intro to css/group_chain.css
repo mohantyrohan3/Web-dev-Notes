@@ -1,0 +1,17 @@
+h1,p{
+    font-family: sans-serif;
+    color: cadetblue;
+}
+
+ul h2{
+    color: dimgray;
+}
+
+li h4{
+    color: lightslategray;
+    font-family: cursive;
+}
+
+#name p{
+    color: brown;
+}

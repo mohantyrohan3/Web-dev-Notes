@@ -1,0 +1,37 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: stretch;  This is when height is auto it streches along the complete cross axis height */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    /* margin: 10px; */
+    background-color: aqua;
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    /* margin: 20px; */
+    background-color: blue;
+
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    /* margin: 30px; */
+    background-color: red;
+
+}

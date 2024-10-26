@@ -1,0 +1,25 @@
+#div1{
+    height: 200px;
+    /* vh means viewport height and 100 vh means full height */
+    /* rem is also a relative unit its value depends upon the font size of html */
+    width: 200px;
+    background-color: rgb(85, 255, 0);
+}
+
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: cornflowerblue;
+    /* border-width: 5px 10px;
+    border-style: groove;
+    border-color: cornsilk; */
+    border: 5px groove cornsilk;
+    border-radius: 25px;
+
+}
+
+p{
+    border-left: 3px solid coral;
+    border-bottom-left-radius: 3px;
+
+}

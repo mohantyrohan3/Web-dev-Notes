@@ -1,0 +1,14 @@
+#div1{
+    height: 50VH;
+    /* vh means viewport height and 100 vh means full height */
+    /* rem is also a relative unit its value depends upon the font size of html */
+    width: 50vw;
+    background-color: rgb(85, 255, 0);
+}
+
+#div2{
+    height: 50%;
+    width: 50%;
+    background-color: cornflowerblue;
+
+}

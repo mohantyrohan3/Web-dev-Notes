@@ -1,0 +1,28 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+}
+
+
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    order: 1;
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}

@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: rotate(120deg);
+    transform: scale(1.5);
+    /* transform: translate(100px);  Single value only translates in x direction and giving 2 values translates in x and y direction */
+
+    transition: 1s ease-in;
+}
+
+div:hover{
+    width:200px;
+    height: 200px;
+}

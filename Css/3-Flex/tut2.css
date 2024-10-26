@@ -1,0 +1,35 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+
+#div1{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    /* order: 1; */
+}
+
+#div2{
+    height: 150px;
+    width: 150px;
+    background-color: bisque;
+}
+
+#div3{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+}
+
+#div4{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+}

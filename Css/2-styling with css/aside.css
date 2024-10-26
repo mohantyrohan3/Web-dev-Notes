@@ -1,0 +1,25 @@
+main{
+    display: inline-block;
+    margin-right: 70vh;
+    margin-left: 60vh;
+}
+
+aside{
+    display: inline-block;
+}
+
+#cl{
+    background-color: black;
+    height: 1px;
+    margin-bottom: 10px;
+}
+
+.inp{
+    display: block;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+}
