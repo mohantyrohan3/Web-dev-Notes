@@ -13,3 +13,56 @@ In src/main/resources make a new .xml file
 
 Spring Evolved throught multiple projects - Core Spring , Spring Security , Spring Data , Spring Integration , Spring Boot , Spring Cloud
 
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+There are 2 most popular build tools - Maven and Gradle
+
+Maven helps in
+- Managing dependencies and their versions
+- Build a jar file
+- Run your application locally in Tomcat or Jetty
+- Run unit tests
+- Deploy to a test environment
+
+
+Exploring POM.xml --- Project Object Model file
+
+
+
+<dependencies>
+    <dependency>
+    </dependency>
+</dependencies>
+
+
+
+Parent Pom - Dependency management
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+Maven Build Lifecycle
+
+Validate 
+Compile
+Test
+Package
+Integration Test
+Verify
+Install
+Deploy
+
+
+Imp Maven commands (Not Imp as of now)
+mvn --version
+mvn compile
+mvn test-compile
+mvn clean
+mvn test
+mvn package
+mvn help:effective-pom
+mvn dependency:tree
+
