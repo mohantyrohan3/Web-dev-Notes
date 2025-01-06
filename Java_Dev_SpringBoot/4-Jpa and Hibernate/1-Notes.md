@@ -45,3 +45,17 @@ public class CourseJdbcCommandLineRunner implements CommandLineRunner {
         springJdbcController.insert();
     }
 }
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Inserting and Deleting Data using Spring JDBC
+
+
+public void insert(Course course){
+    jdbctemplate.update(INSERT_QUERY , course.getId() , course.getName() , course.getAuthor());
+}
+
+public void deletebyId(long id){
+    jdbctemplate.update(DELETE_QUERY , id);
+}
+
