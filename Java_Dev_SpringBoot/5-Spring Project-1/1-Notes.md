@@ -4,9 +4,36 @@ In Application.properties file
 - server.port = 8000
 
 
+
+@ComponentScan(basePackages = {"controller"})
+- If you are rest apis are written outside the main package
+
+
 @RequestBody -- For getting details from the body on post requsts
 @ResponseBody -- Sending string html content to the browser as it is
 
+
+Spring Boot will automatically convert the incoming JSON into a Map<String, Object>.
+
+@PostMapping("/createUser")
+    public String createUser(@RequestBody Map<String, Object> requestData) {
+        String name = (String) requestData.get("name");
+        String username = (String) requestData.get("username");
+
+        return "Received name: " + name + ", username: " + username;
+    }
+
+
+- Another Approach is using predefined class
+
+@PostMapping("/createUser")
+    public String createUser(@RequestBody UserRequest userRequest) {
+        // You can now access userRequest.getName() and userRequest.getUsername()
+        return "Received name: " + userRequest.getName() + ", username: " + userRequest.getUsername();
+    }
+
+
+----------------------------------------------------------------------------------------------------------------------------------
 
 
 Using JSP (I dont need it because I will be using React)

@@ -14,7 +14,7 @@ Server Side Validation --- Using Spring Boot Starter Validation
 - Update in pom.xml (internet)
 
 
-@Size(min = 10 , message = "Enter atleast 10 characters")
+@Size(min = 10 , message = "Enter atleast 10 characters")  - In Entity validation
 
 And just add @Valid in the method of controller
 

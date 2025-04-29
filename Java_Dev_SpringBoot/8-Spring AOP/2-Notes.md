@@ -35,3 +35,25 @@ procjointpoint.proceed();
 
 always return the returnValue
 
+
+-------------------------------------------------------------------------------------------------------------------
+
+To avoid changing package name at multiple places
+
+we can create a another class
+
+public class CommonPointCutConfig{
+
+    @PointCut("Actual Package name ")
+    public void dataPackage(){}
+
+    @PointCut("Actual Package name ")
+    public void businessPackage(){}
+
+}
+
+
+public class ActualLoggingAspect{
+
+    @Before("CommonPointCutConfig.dataPackage()") // Only change
+}
