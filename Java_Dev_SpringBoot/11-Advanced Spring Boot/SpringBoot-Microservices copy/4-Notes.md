@@ -12,6 +12,16 @@ API Gateways enforce security policies like: ✅ Rate limiting (prevent abuse). 
 - spring.cloud.gateway/discovery.locator.enabled=true
 
 
+
+Instead Use this
+
+spring.cloud.gateway.server.webflux.discovery.locator.enabled=true
+spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id=true
+
+
+
+
+
 So the new URL will look like
 
 http:localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/to/USD/
