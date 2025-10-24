@@ -51,6 +51,41 @@ Service Registry - Or Naming Server , all the microservices are registered in th
 - eureka.client.fetch-registry = false
 - eureka.instance.client.serviceUrl.defaultZone=http://localhost:8761/eureka
 
+# For Gateway
+spring.application.name=api-gateway
+server.port=8765
+
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+eureka.instance.hostname=localhost
+eureka.instance.prefer-ip-address=false
+eureka.instance.instance-id=${spring.application.name}:${server.port}
+
+spring.cloud.gateway.server.webflux.discovery.locator.enabled=true
+spring.cloud.gateway.server.webflux.discovery.locator.lower-case-service-id=true
+
+
+
+# For Eureka
+spring.application.name=eureka
+server.port = 8761
+eureka.client.register-with-eureka = false
+eureka.client.fetch-registry = false
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+eureka.instance.hostname=localhost
+eureka.instance.prefer-ip-address=false
+
+
+
+# For service
+spring.application.name=first-service
+server.port=8001
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+eureka.instance.hostname=localhost
+eureka.instance.prefer-ip-address=false
+eureka.instance.instance-id=${spring.application.name}:${server.port}
+
+
+
 
 Registering the Microservices to the Eureka server
 
