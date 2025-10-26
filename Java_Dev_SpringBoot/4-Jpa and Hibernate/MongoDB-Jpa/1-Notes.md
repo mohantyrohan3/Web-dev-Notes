@@ -12,6 +12,7 @@ spring.data.mongodb.port = 27017
 spring.data.mongodb.database = userDB  // automatically gets created
 spring.data.mongodb.username = 
 spring.data.mongodb.password = 
+spring.data.mongodb.authentication-database=admin
 
 
 then make a repository
